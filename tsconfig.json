@@ -1,0 +1,9 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  "include": ["./src"],
+  "types": ["@types/node"],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "moduleResolution": "Node"
+  }
+}
